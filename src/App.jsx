@@ -20,7 +20,7 @@ import {
 const getInitialApiBase = () => {
   return localStorage.getItem('sr_custom_api_url') || 
          import.meta.env.VITE_API_BASE || 
-         (window.location.hostname === 'localhost' ? '/api' : 'https://mean-schools-scream.loca.lt/api');
+         (window.location.hostname === 'localhost' ? '/api' : 'https://srgroupapi.onrender.com/api');
 };
 
 export default function App() {
